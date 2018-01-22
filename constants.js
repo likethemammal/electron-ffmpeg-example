@@ -1,6 +1,6 @@
 
 const event_keys = {
-    SORTER_SEND_PATH: 'SORTER_SEND_PATH'
+    GET_INPUT_PATH: 'GET_INPUT_PATH'
 }
 
 

@@ -21,11 +21,9 @@ ipc.on('asynchronous-reply', function (event, arg) {
 const { dialog } = require('electron').remote
 // console.log(dialog)
 
-dialog.showOpenDialog({properties: ['openDirectory']}, function (paths) {
+dialog.showOpenDialog({properties: ['openFile']}, function (paths) {
     console.log(paths)
 
-    const videos_path = paths[0]
-
-    ipc.send(event_keys.SORTER_SEND_PATH, videos_path)
+    ipc.send(event_keys.GET_INPUT_PATH, paths[0])
 
 })

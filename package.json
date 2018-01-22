@@ -1,18 +1,15 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "@likethemammal/electron-ffmpeg-example",
+  "version": "0.1.0",
+  "description": "Example of a Electron quick start with ffmpeg hooked up",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/likethemammal/electron/ffmpeg/example",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "electron",
+    "ffmpeg"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
@@ -20,6 +17,6 @@
     "electron": "~1.7.8"
   },
   "dependencies": {
-    "ffmpeg": "0.0.4"
+    "fluent-ffmpeg": "^2.1.2"
   }
 }
